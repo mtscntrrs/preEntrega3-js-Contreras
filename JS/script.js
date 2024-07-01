@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         productDiv.className = 'col-lg-4 col-md-6 mb-4';
         productDiv.innerHTML = `
             <div class="card">
-                <img src="../media/${image}" class="card-img-top" alt="Imagen del producto">
+                <img src="../MEDIA/${image}" class="card-img-top" alt="Imagen del producto">
                 <div class="card-body">
                     <h5 class="card-title">${name}</h5>
                     <p class="card-text">${description}</p>

@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const products = [
-        { id: 1, name: 'Café Americano', description: 'Carga de café (30 ml) con 130 ml de agua.', price: 3000, image: 'americano.JPEG' },
-        { id: 2, name: 'Capuccino', description: 'Doble carga de café 60 ml con 190 ml de leche texturizada.', price: 4200, image: 'capuccino.JPEG' },
-        { id: 3, name: 'Cortado', description: 'Carga de café 30 ml con 100 ml de leche texturizada.', price: 3400, image: 'cortado.JPEG' },
-        { id: 4, name: 'Expresso', description: 'Carga de café 30 ml.', price: 2800, image: 'expresso.JPEG' },
-        { id: 5, name: 'Expresso doble', description: 'Doble carga de café 60 ml.', price: 3500, image: 'doblexpresso.JPEG' },
-        { id: 6, name: 'Latte', description: 'Carga de café 30 ml con 220 ml de leche texturizada.', price: 4200, image: 'latte.JPEG' }
+        { id: 1, name: 'Café Americano', description: 'Carga de café (30 ml) con 130 ml de agua.', price: 3000, image: '../MEDIA/americano.JPEG' },
+        { id: 2, name: 'Capuccino', description: 'Doble carga de café 60 ml con 190 ml de leche texturizada.', price: 4200, image: '../MEDIA/capuccino.JPEG' },
+        { id: 3, name: 'Cortado', description: 'Carga de café 30 ml con 100 ml de leche texturizada.', price: 3400, image: '../MEDIA/cortado.JPEG' },
+        { id: 4, name: 'Expresso', description: 'Carga de café 30 ml.', price: 2800, image: '../MEDIA/expresso.JPEG' },
+        { id: 5, name: 'Expresso doble', description: 'Doble carga de café 60 ml.', price: 3500, image: '../MEDIA/doblexpresso.JPEG' },
+        { id: 6, name: 'Latte', description: 'Carga de café 30 ml con 220 ml de leche texturizada.', price: 4200, image: '../MEDIA/latte.JPEG' }
     ];
 
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
